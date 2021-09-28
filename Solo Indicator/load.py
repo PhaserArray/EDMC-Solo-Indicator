@@ -1,10 +1,10 @@
 import sys
-import Tkinter as tk
+import tkinter as tk
 from monitor import monitor
 
 this = sys.modules[__name__]
 
-def plugin_start():
+def plugin_start3(plugin_dir):
     return "Solo Indicator"
 
 def plugin_app(parent):
