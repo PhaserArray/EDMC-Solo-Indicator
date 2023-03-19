@@ -26,4 +26,4 @@ def journal_entry(cmdr, is_beta, system, station, entry, state):
         return
 
     if monitor.mode.lower() == "solo":
-        cmdr["text"] = '%s / %s' % (monitor.cmdr, 'Solo')
+        cmdr["text"] = f"{monitor.cmdr} / Solo"
